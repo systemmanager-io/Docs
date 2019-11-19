@@ -4,9 +4,9 @@ module.exports = {
         ['@vuepress/nprogress'], ['@vuepress/back-to-top'], ['@vuepress/pwa']
     ],
     themeConfig: {
-        lastUpdated: 'This page was last updated on',
+        lastUpdated: 'Last updated on',
         description: 'Let long downtimes be a thing of the past',
-        editLinkText: 'Help us improve this page in the documentation.',
+        editLinkText: 'Help us improve this page',
         editLinks: true,
         docsRepo: 'systemmanager-io/docs',
         docsDir: 'docs',
@@ -16,7 +16,8 @@ module.exports = {
                     title: 'Core',
                     collapsable: false,
                     children: [
-                        '/core/',
+                        '/core/getting_started',
+                        '/core/updating',
                     ]
                 },
                 {
