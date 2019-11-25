@@ -31,6 +31,11 @@ module.exports = {
         editLinks: true,
         docsRepo: 'systemmanager-io/docs',
         docsDir: 'docs',
+        nav: [
+            { text: 'Main Site', link: 'https://systemmanager.io' },
+            { text: 'Forum', link: 'https://forum.systemmanager.io' },
+            { text: 'Discord', link: 'https://discord.gg/pxRjFRC' },
+        ],
         sidebar: {
             '/': [
                 {
