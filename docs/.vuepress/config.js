@@ -34,6 +34,13 @@ module.exports = {
         sidebar: {
             '/': [
                 {
+                    title: 'Project Information',
+                    collapsable: false,
+                    children: [
+                        '/'
+                    ]
+                },
+                {
                     title: 'Installation Guide',
                     collapsable: false,
                     children: [
@@ -46,11 +53,18 @@ module.exports = {
                             ]
                         },
                         {
-                            title: "Daemon",
+                            title: "Worker",
                             collapsable: false,
                             children: [
-                                '/daemon/getting_started',
-                                '/daemon/updating'
+                                '/worker/getting_started',
+                                '/worker/updating'
+                            ]
+                        },
+                        {
+                            title: "Pinger",
+                            collapsable: false,
+                            children: [
+                                '/pinger/getting_started',
                             ]
                         }
 
