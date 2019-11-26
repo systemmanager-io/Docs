@@ -32,9 +32,9 @@ module.exports = {
         docsRepo: 'systemmanager-io/docs',
         docsDir: 'docs',
         nav: [
-            { text: 'Main Site', link: 'https://systemmanager.io' },
-            { text: 'Forum', link: 'https://forum.systemmanager.io' },
-            { text: 'Discord', link: 'https://discord.gg/pxRjFRC' },
+            {text: 'Main Site', link: 'https://systemmanager.io'},
+            {text: 'Forum', link: 'https://forum.systemmanager.io'},
+            {text: 'Discord', link: 'https://discord.gg/pxRjFRC'},
         ],
         sidebar: {
             '/': [
@@ -63,6 +63,13 @@ module.exports = {
                             children: [
                                 '/worker/getting_started',
                                 '/worker/updating'
+                            ]
+                        },
+                        {
+                            title: "Daemon",
+                            collapsable: false,
+                            children: [
+                                '/daemon/getting_started',
                             ]
                         },
                         {
