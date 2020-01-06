@@ -12,3 +12,10 @@ Be aware that SystemManager is in full development and stuff is subject to chang
 ::: warning 
 This documentation is in construction. This documentation is subject to changes at any moment
 :::
+
+SystemManager has been written in then following languages
+- TypeScript
+- Java
+- C++
+- Objective-C
+- Go (Or another language for the Deamon, haven't decided quite yet)
