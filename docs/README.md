@@ -18,4 +18,4 @@ SystemManager has been written in then following languages
 - Java
 - C++
 - Objective-C
-- Go (Or another language for the Deamon, haven't decided quite yet)
+- Rust
