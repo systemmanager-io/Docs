@@ -12,3 +12,4 @@ NOTE TO SELF
 - Tail logs from NGINX, Apache etc
 - Get load value from server
 - Get Network IO
+- Get Server Specs to show in panel

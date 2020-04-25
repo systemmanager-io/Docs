@@ -4,16 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.2.0",
-    "@vuepress/plugin-nprogress": "^1.2.0",
-    "@vuepress/plugin-pwa": "^1.2.0",
-    "vuepress": "^1.2.0"
+    "@vuepress/plugin-back-to-top": "^1.4.1",
+    "@vuepress/plugin-nprogress": "^1.4.1",
+    "@vuepress/plugin-pwa": "^1.4.1",
+    "vuepress": "^1.4.1"
   },
   "dependencies": {
     "vuepress-plugin-git-log": "^1.0.1"

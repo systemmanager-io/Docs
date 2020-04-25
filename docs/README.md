@@ -1,4 +1,4 @@
-# SystemManager Documentation
+# SystemManager
 
 ::: danger 
 The documentation at this stage is an collection with ideas and inner working of the SystemManager Ecosystem

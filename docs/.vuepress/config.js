@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'SystemManager',
+    title: 'SystemManager Documentation',
     head: [
         ['link', {rel: 'icon', href: '/logo.png'}],
         ['link', {rel: 'manifest', href: '/manifest.json'}],
